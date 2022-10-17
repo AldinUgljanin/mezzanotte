@@ -1,0 +1,88 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.learn-more-button {
+    color: white;
+    background-color: #5C7EB0;
+    margin: 10px 0 0 110px;
+    padding: 8px 50px;
+    border-radius: 15px;
+    display: inline-block;
+
+}
+
+.main-header-logo{
+    width: 20%;
+    display: block;
+}
+
+.main-nav {
+    display: block;
+    width: 75%;
+}
+
+.main-nav > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.contact-us {
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.second-header {
+    background-image: url('../img/mezzanotte-bcg.png');
+    height: 800px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-header > article {
+    margin-top: 30px;
+}
+
+.second-header > article > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.header-logo {
+    width: 400px;
+}
