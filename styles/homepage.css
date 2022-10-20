@@ -259,5 +259,19 @@ a:hover{
     background-color: white;
 }
 
-.colored {
-    background-
+.customer > article > span.colored {
+    background-color: #5C7EB0;
+}
+
+.contact-us-section {
+    width: 100%;
+    height: 220px;
+    background-color: #373737;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact-us-section h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
