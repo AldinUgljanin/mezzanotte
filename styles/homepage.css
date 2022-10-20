@@ -29,13 +29,12 @@ a:hover{
 }
 
 .learn-more-button {
+    display: inline-block;
     color: white;
     background-color: #5C7EB0;
-    margin: 10px 0 0 110px;
-    padding: 8px 50px;
     border-radius: 15px;
-    display: inline-block;
-
+    padding: 5px 50px;
+    margin: 5px;
 }
 
 .main-header-logo{
@@ -63,7 +62,7 @@ a:hover{
 
 .second-header {
     background-image: url('../img/mezzanotte-bcg.png');
-    height: 800px;
+    height: 850px;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,6 +75,10 @@ a:hover{
     margin-top: 30px;
 }
 
+.second-header > article > .learn-more-button {
+    margin: 50px 0 0 110px;
+}
+
 .second-header > article > h2 {
     text-transform: uppercase;
     text-align: center;
@@ -86,3 +89,175 @@ a:hover{
 .header-logo {
     width: 400px;
 }
+
+.why-mezzanote {
+    margin-top: -300px;
+    position: relative;
+}
+
+.why-mezzanote .learn-more-button{
+    margin: 10px 0 0 45%;
+}
+.title {
+    text-align: center;
+}
+
+.title h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.title p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.reasons {
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.reasons article div {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.reasons article div p {
+    padding-top: 40px;
+}
+
+
+
+.our-solutions {
+    margin-top: 100px;
+}
+
+.our-solutions > .learn-more-button {
+    margin: 10px 0 0 45%;
+}
+
+.solutions {
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.solutions h3 {
+    margin: 15px 0;
+}
+
+.solutions p {
+    width: 600px;
+}
+
+.solutions article {
+    margin: 15px;
+}
+
+.solutions article div{
+    width: 400px;
+    height: 250px;
+    margin: 20px auto;
+    background-color: grey;
+}
+
+
+.who-we-support {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+    border-bottom: 2px solid #5C7EB0;
+    padding-bottom: 80px;
+}
+
+.who-we-support article {
+    width: 400px;
+}
+.who-we-support .text h2 {
+    padding: 5px 0;
+}
+.who-we-support .text p {
+    padding: 5px 0;
+}
+.who-we-support .text ul{
+    padding: 10px 20px;
+}
+.who-we-support .text ul > li{
+    padding: 3px;
+}
+
+.who-we-support .image {
+    width: 600px;
+    height: 300px;
+    background-color: grey;
+}
+
+.who-we-suport .text .learn-more-button {
+      margin: 20px -200px;
+}
+
+.customer {
+    width: 60%;
+    margin: 90px auto 50px auto;
+    position: relative;
+}
+
+.customer h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.customer h4 {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.customer p {
+    text-align: center;
+    max-width: 900px;
+    line-height: 200%;
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+.arrow {
+    display: inline-block;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: -90px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: -90px;
+}
+
+.customer > article {
+    width: 69px;
+    margin: 40px auto 0 auto;
+}
+
+.customer > article > span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.colored {
+    background-
