@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    background-image: url("../img/mezzanotte-bcg.png");
+    height: 650px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    padding-top: 100px;
+}
+
+.header h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.header p{
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    font-size: 20px;
+}
+
+main {
+    margin-top: -120px;
+}
+
+.team_wrap h3{
+    padding-left: 110px;
+    letter-spacing: 15px;
+    font-size: 25px;
+}
+
+.team_cards{
+    padding-top: 40px;
+}
+
+.team_members{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.member p {
+    text-align: center;
+    padding: 18px;
+}
+
+.team_members .image{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: #373737;
+    margin: 10px auto;
+}
+
+.member {
+    width: 30%;
+}
+
+.member h4, .member span, .member p{
+    text-align: center;
+}
+
+.member p{
+    padding: 0 90px 0 90px;
+}
+
+.contact-us-section {
+    margin-top: 200px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 1024px) {
+    .member {
+	width: 100%;
+	margin: 10px auto;
+    }
+
+    .member p {
+	margin: auto;
+	max-width: 550px;
+    }
+
+    .team_members {
+	flex-wrap: wrap;
+    }
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 759px) {
+
+    .header h1{
+	font-size: 40px;
+    }
+
+    .header p {
+	font-size: 18px;
+	width: 350px;
+    }
+    
+}
