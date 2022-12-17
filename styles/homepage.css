@@ -35,6 +35,7 @@ a:hover{
     border-radius: 15px;
     padding: 5px 50px;
     margin: 5px;
+    text-align: center;
 }
 
 .logo-link {
@@ -138,8 +139,6 @@ a:hover{
     padding-top: 40px;
 }
 
-
-
 .our-solutions {
     margin-top: 100px;
 }
@@ -208,81 +207,34 @@ a:hover{
 }
 
 .who-we-suport .text .learn-more-button {
-      margin: 20px -200px;
+    margin: 20px -200px;
 }
 
-.slider { 
-    width: 80%;
+.swiper {
+    width: 60%;
     height: 500px;
-    margin: auto;
-    overflow: hidden;
 }
 
-.slide {
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, 
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    background-color: white;
+}
+
+.swiper-slide {
     text-align: center;
-    padding: 10px 120px 0 170px;
-    transition: 2s;
 }
 
-.slide h1 {
-    font-size: 60px;
-    margin: 5px;
+.swiper-slide h1 {
+    margin-top: 50px;
+    font-size: 40px;
 }
 
-.slide p {
-    font-size: 35px;
-    letter-spacing: 2px;
-    width: 700px;
-    margin: auto;
-    line-height: 1.5;
-}
-.sliders {
-    width: 900%;
-    display: flex;
-}
-
-.sliders input {
-    display: none;
-}
-
-.navigation-manual{
-    position: absolute;
+.swiper-slide p {
+    letter-spacing: 3px;
+    line-height: 1.6;
     width: 80%;
-    margin-top: 450px;
-    display: flex;
-    justify-content: center;
-}
-
-.manual-btn{
-    border: 2px solid white;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.7s;
-}
-
-.manual-btn:not(:last-child) {
-    margin-right: 40px;
-}
-
-.manual-btn:hover {
-    background-color: #5C7EB0;
-}
-
-#radio1:checked ~ .first {
-    margin-left: 0;
-}
-
-#radio2:checked ~ .first {
-    margin-left: -10.7%;
-}
-
-#radio3:checked ~ .first {
-    margin-left: -21.5%;
-}
-
-#radio4:checked ~ .first {
-    margin-left: -32.6%;
+    margin: auto;
+    font-size: 25px;
 }
 
 .contact-us-section {
@@ -316,7 +268,7 @@ input[type=text] {
     border-radius: 15px;
     border: 0px solid black;
     color: white;
-    font-weight: 1000;
+    font-weight: 500;
     filter:brightness(1.2);
     -webkit-filter:brightness(1.2);
 }
@@ -387,71 +339,20 @@ footer nav ul li a i {
 	margin: 10px 0 0 39.5%;
     }
 
-    .slide {
-	text-align: center;
-	padding: 10px 15px 0 15px;
-	transition: 2s;
-    }
-
-    .slide h1 {
-	font-size: 40px;
-    }
-
-    .slide p {
+    .swiper-slide h1 {
+	margin-top: 30px;
 	font-size: 30px;
-	letter-spacing: 2px;
-	width: 500px;
-	text-align: center;
-	margin: auto;
-	line-height: 1.5;
-    }
-    .sliders {
-	width: 900%;
-	display: flex;
     }
 
-    .sliders input {
-	display: none;
+    .swiper-slide p {
+	font-size: 20px;
     }
 
-    .navigation-manual{
-	position: absolute;
-	width: 80%;
-	margin-top: 450px;
-	display: flex;
-	justify-content: center;
+    footer nav {
+	margin-right: 30px;
     }
-
-    .manual-btn{
-	border: 2px solid white;
-	padding: 5px;
-	border-radius: 10px;
-	cursor: pointer;
-	transition: 0.7s;
-    }
-
-    .manual-btn:not(:last-child) {
-	margin-right: 40px;
-    }
-
-    .manual-btn:hover {
-	background-color: #5C7EB0;
-    }
-
-    #radio1:checked ~ .first {
-	margin-left: 0;
-    }
-
-    #radio2:checked ~ .first {
-	margin-left: -11.5%;
-    }
-
-    #radio3:checked ~ .first {
-	margin-left: -23.4%;
-    }
-
-    #radio4:checked ~ .first {
-	margin-left: -35.4%;
+    .copyright {
+	margin-right: 25px;
     }
 
 }
@@ -460,11 +361,24 @@ footer nav ul li a i {
     header{
 	font-size: 8px;
 	flex-wrap: wrap;
-	padding: 5px 0;
+	padding: 10px 20px 20px 0px; 
+    }
+
+    .learn-more-button {
+	padding: 5px 45px;
+    }
+
+    .second-header > article > h2 {
+	font-size: 28px;
+    }
+
+    .header-logo {
+	width: 350px;
+	margin-right: 40px;
     }
 
     .why-mezzanote .learn-more-button{
-	margin: 10px 0 0 28%;
+	margin: 10px 0 0 27%;
     }
 
     .reasons{
@@ -478,12 +392,13 @@ footer nav ul li a i {
     }
 
     .our-solutions > .learn-more-button {
-	margin: 10px 0 0 28%;
+	margin: 10px 0 0 27%;
     }
     
     .logo-link {
-	width: 60%;
+	width: 70%;
 	margin: auto;
+	padding: 0 0 0 15px;
     }
 
     .main-header-logo{
@@ -499,6 +414,24 @@ footer nav ul li a i {
 	margin-right: 2px;
     }
 
+    .swiper {
+	width: 100%;
+	height: 400px;
+    }
+
+    .swiper-slide h1 {
+	margin-top: 35px;
+	font-size: 25px;
+    }
+
+    .swiper-slide p {
+	font-size: 14px;
+    }
+
+    .swiper-slide h3 {
+	font-size: 15px;
+    }
+
     .contact-us {
 	padding: 5px 15px;
     }
@@ -508,6 +441,11 @@ footer nav ul li a i {
 	display: inline-block;
 	margin-left: 45px;
     }
+
+    .our-solutions {
+	margin-left: 9px;
+    }
+
 
     .solutions article div{
 	width: 250px;
@@ -541,10 +479,22 @@ footer nav ul li a i {
 	padding: 5px;
     }
 
+    footer nav ul li a i { 
+	font-size: 40px;
+    }
+
+    footer nav {
+	margin-right: 45px;
+    }
+
     .footer-logo img {
 	width: 100%;
     }
 
+
+    .copyright {
+	margin-right: 35px;
+    }
 
     input[type=text] {
 	padding: 5px 10px;
@@ -558,87 +508,52 @@ footer nav ul li a i {
 	border-radius: 15px;
     }
 
-    .slider { 
-	width: 80%;
-	height: 300px;
-	margin: auto;
-	overflow: hidden;
-    }
-
-    .slide {
-	text-align: center;
-	padding: 5px 10px 0 10px;
-	transition: 2s;
-    }
-
-    .slide h1 {
-	font-size: 16px;
-    }
-
-    .slide p {
-	font-size: 14px;
-	letter-spacing: 2px;
-	width: 280px;
-	text-align: center;
-	margin: auto;
-	line-height: 1.5;
-    }
-
-    .slide h3 {
-	font-size: 15px;
-    }
-
-    .sliders {
-	width: 700%;
-	display: flex;
-    }
-
-    .sliders input {
-	display: none;
-    }
-
-    .navigation-manual{
-	position: absolute;
-	width: 80%;
-	margin-top: 250px;
-	display: flex;
-	justify-content: center;
-    }
-
-    .manual-btn{
-	border: 2px solid white;
-	padding: 5px;
-	border-radius: 10px;
-	cursor: pointer;
-	transition: 0.7s;
-    }
-
-    .manual-btn:not(:last-child) {
-	margin-right: 40px;
-    }
-
-    .manual-btn:hover {
-	background-color: #5C7EB0;
-    }
-
-    #radio1:checked ~ .first {
-	margin-left: 0;
-    }
-
-    #radio2:checked ~ .first {
-	margin-left: -14.5%;
-    }
-
-    #radio3:checked ~ .first {
-	margin-left: -29.3%;
-    }
-
-    #radio4:checked ~ .first {
-	margin-left: -43.8%;
-    }
-
     .contact-us-section {
 	height: 100px;
     }
 
+}
+
+@media screen and (min-width: 1500px) {
+    .why-mezzanote .learn-more-button{
+	margin: 10px 0 0 44.4%;
+
+    }
+
+    .our-solutions > .learn-more-button {
+	margin: 10px 0 0 44.4%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .why-mezzanote .learn-more-button{
+	margin: 10px 0 0 45%;
+
+    }
+
+    .our-solutions > .learn-more-button {
+	margin: 10px 0 0 45%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .why-mezzanote .learn-more-button{
+	margin: 10px 0 0 45.7%;
+
+    }
+
+    .our-solutions > .learn-more-button {
+	margin: 10px 0 0 45.7%;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    .why-mezzanote .learn-more-button{
+	margin: 10px 0 0 46.9%;
+
+    }
+
+    .our-solutions > .learn-more-button {
+	margin: 10px 0 0 46.9%;
+    }
 }
